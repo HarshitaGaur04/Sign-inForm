@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in form</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <h1 class="mainheading" >Sign In</h1>
+            <hr>
+            <p>
+                Name: <input type="text" placeholder="Your name" ID="name" required>
+            </p>
+            <P>
+                Institute Name: <input type="text" placeholder="Institute name" required>
+            </p>
+            <fieldset>
+                <legend>Gender</legend>
+                <p>
+                    Male <input type="radio" name="gender" required>
+                </p>
+                <p>
+                    Female <input type="radio" name="gender" required>
+                </p>
+            </fieldset>
+            <P>
+                Age: <select name="age" id="age">
+                    <option value="">--select your age--</option>
+                    <option value="Below 18">Below 18</option>
+                    <option value="18">18</option>
+                    <option value="Above 18">Above 18</option>
+
+                </select>
+            </P>
+            <P>
+                E-mail: <input type="email" placeholder="abc@gmail.com" required>
+            </P>
+            <P>
+                password: <input type="password" name="password" placeholder="*******"required>
+            </P>
+            <P>
+                Mobile No: <input type="text" name="mob" id="mob" required>
+            </P>
+            <P>
+                <input type="submit" value="Sign In">
+            </P>
+            
+        </form>
+    </div>
+</body>
+</html>
